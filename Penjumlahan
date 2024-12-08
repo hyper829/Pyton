@@ -1,0 +1,15 @@
+def main():
+    print("=== Program Penjumlahan Dua Angka ===")
+    
+    try:
+        angka1 = float(input("Masukkan angka pertama: "))
+        angka2 = float(input("Masukkan angka kedua: "))
+        
+        hasil = angka1 + angka2
+        
+        print(f"Hasil penjumlahan {angka1} + {angka2} = {hasil}")
+    except ValueError:
+        print("Input harus berupa angka. Silakan coba lagi.")
+
+if __name__ == "__main__":
+    main()
